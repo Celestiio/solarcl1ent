@@ -1,5 +1,5 @@
 <html><head>
-<title>Solar Client</title>
+<title>SolarClient</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <style type="text/css">
@@ -48,10 +48,10 @@ h1 {
    padding: 40px 0 10px 10px;
    margin: 0;
 }
-h1 span { color: #6BAD42; }
-h1 a { color: #FFF; }
-h1 a:hover { color: #6BAD42;  text-decoration: none;}
-h1 a:hover span { color: #FFF;}
+h1 span { color: #FFD700; }
+h1 a { color: #FF4500; }
+h1 a:hover { color: #FFD700;  text-decoration: none;}
+h1 a:hover span { color: #FF4500;}
 h2 {
    font: bold 100% arial, verdana, sans-serif;
    color: #3B578B;
@@ -154,12 +154,12 @@ window.addDomReadyFunc(function() {
 disableOverride();
 </script>
 </head>
-<body style="background-color:orange>
+<body class="vsc-initialized">
    
    <div id="wrapper">
    
       <div id="header">
-         <h1 style="color:red;">Solar Client</h1>
+         <h1><a href="index.php">Solar<span>Client</span></a></h1>
       </div>
    
       <div id="content">
@@ -167,10 +167,10 @@ disableOverride();
       
          <!--[error]-->
          
-         <h2 class="first", style="color:red;>Welcome to Solar Client</h2>
+         <h2 class="first">Welcome</h2>
          
-            <p>Use solar client for access to otherwise inaccessible places.</p>
-   <p>Please be aware some places will not work properly.</p>
+            <p>Solar Client provides access to places otherwise unaccessable.</p>
+   <p>Keep in mind some places may not work as intended.</p>
          
          <h2>Enter URL</h2>
          
@@ -228,7 +228,9 @@ disableOverride();
          
       </div>
       
-     
+      <div id="footer">
+         © 2008 <a href="index.php">glype proxy</a> : Powered by <a href="http://www.glype.com/">glype</a> v1.1
+		</div>
 
 	</div>
 
